@@ -970,8 +970,8 @@ dtb-$(CONFIG_ARCH_RENESAS) += \
 	r8a7794-alt.dtb \
 	r8a7794-silk.dtb \
 	r9a06g032-rzn1d400-db.dtb \
-	sh73a0-kzm9g.dtb
-dtb-$(CONFIG_ARCH_ROCKCHIP) += \
+	sh73a0-kzm9g.dtb \
+# dtb-$(CONFIG_ARCH_ROCKCHIP) += \
 	rv1103g-38x38-ipc-v10.dtb \
 	rv1103g-battery-ipc-v10.dtb \
 	rv1103g-battery-ipc-v11.dtb \
