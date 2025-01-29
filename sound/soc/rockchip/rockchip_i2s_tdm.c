@@ -851,6 +851,7 @@ static int rockchip_i2s_tdm_calibrate_mclk(struct rk_i2s_tdm_dev *i2s_tdm,
 	case 96000:
 	case 192000:
 	case 384000:
+//	case 768000:
 		mclk_root = i2s_tdm->mclk_root0;
 		mclk_root_freq = i2s_tdm->mclk_root0_freq;
 		mclk_root_initial_freq = i2s_tdm->mclk_root0_initial_freq;
@@ -862,6 +863,7 @@ static int rockchip_i2s_tdm_calibrate_mclk(struct rk_i2s_tdm_dev *i2s_tdm,
 	case 88200:
 	case 176400:
 	case 352800:
+//	case 705600:
 		mclk_root = i2s_tdm->mclk_root1;
 		mclk_root_freq = i2s_tdm->mclk_root1_freq;
 		mclk_root_initial_freq = i2s_tdm->mclk_root1_initial_freq;
